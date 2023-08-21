@@ -1,0 +1,111 @@
+body{
+    background: linear-gradient(139deg, #96e2eecb 0%, #e9a3c6b6 90%);
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0dae7;
+    border-radius: 10px;
+  }
+  
+  /* Style for the input field and add button */
+  .addtask {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .addtask input[type="text"] {
+    flex: 1;
+    height: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555;
+    background-color: #fff;
+  }
+  .addtask button {
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ec8bf0;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  .addtask button:hover {
+    background-color: #148f77;
+  }
+  
+  /* Style for the not completed tasks list */
+  .notCompleted {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+  }
+  .notCompleted h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #555;
+  }
+  .notCompleted li {
+    display: flex;
+    align-items: center;
+    background-color: #f1acac;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .notCompleted li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+
+
+  .notCompleted li button i {
+    font-size: 18px;
+    color: #da68ac;
+    
+  }
+  
+  /* Style for the completed tasks list */
+  .Completed {
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+  }
+  .Completed h3 {
+    margin-top: 0;
+    color: #685a5a;
+  }
+  .Completed li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #97f5a3;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .Completed li button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .Completed li button i {
+    font-size: 18px;
+    color: #da68ac;
+  }
+  
+  
